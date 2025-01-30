@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Biodigestor/estilos.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\estilos.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i5rqqQnATi2EVgxpQFarYt5bYmoYVO0DMFAssNJLzdw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"34"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022i5rqqQnATi2EVgxpQFarYt5bYmoYVO0DMFAssNJLzdw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 19:46:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Biodigestor/estilos.pbhzv9yjfd.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\estilos.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pbhzv9yjfd"},{"Name":"integrity","Value":"sha256-i5rqqQnATi2EVgxpQFarYt5bYmoYVO0DMFAssNJLzdw="},{"Name":"label","Value":"_content/Biodigestor/estilos.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022i5rqqQnATi2EVgxpQFarYt5bYmoYVO0DMFAssNJLzdw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Dec 2024 19:46:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Biodigestor/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i0E5Fmse6maXXxW54kaFQkdhDmcLMl/kyThmpicbqaY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9436"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022i0E5Fmse6maXXxW54kaFQkdhDmcLMl/kyThmpicbqaY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 19:52:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Biodigestor/index.l4d4b27wbm.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l4d4b27wbm"},{"Name":"integrity","Value":"sha256-i0E5Fmse6maXXxW54kaFQkdhDmcLMl/kyThmpicbqaY="},{"Name":"label","Value":"_content/Biodigestor/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9436"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022i0E5Fmse6maXXxW54kaFQkdhDmcLMl/kyThmpicbqaY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 19:52:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
